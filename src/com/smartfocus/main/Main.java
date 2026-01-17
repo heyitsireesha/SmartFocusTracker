@@ -23,7 +23,7 @@ public class Main {
 
         timer.start();
 
-        // KEEP JVM ALIVE (THIS IS KEY)
+        
         Thread.sleep(120000); // 2 minutes
 
         session.endSession();
