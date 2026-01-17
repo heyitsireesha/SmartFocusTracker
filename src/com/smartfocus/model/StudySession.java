@@ -25,7 +25,7 @@ public class StudySession {
         return Duration.between(startTime, endTime).toMinutes();
     }
 
-    // Getters (we'll need them later)
+    
     public LocalDateTime getStartTime() {
         return startTime;
     }
